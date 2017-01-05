@@ -1,14 +1,20 @@
 use_frameworks!
 
-target 'CGExtensions_Example_iOS' do
+def pod_for_testing
+  inherit! :search_paths
+
+  pod 'Quick', '~> 1.0.0'
+  pod 'Nimble', '~> 5.1.1'
+end
+
+abstract_target 'CGExtensions' do
   pod 'CGExtensions', :path => '../'
 
-  target 'CGExtensions_Tests_iOS' do
-    inherit! :search_paths
-
-    pod 'Quick', '~> 1.0.0'
-  pod 'Nimble', '~> 5.1.1'
-  pod 'FBSnapshotTestCase'
-  pod 'Nimble-Snapshots'
+  target 'CGExtensions_Example_iOS' do
+    target 'CGExtensions_Tests_iOS' do
+      pod_for_testing
+      pod 'FBSnapshotTestCase'
+      pod 'Nimble-Snapshots'
+    end
   end
 end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C66D5F83365ADF16C99AF82 /* Pods_CGExtensions_CGExtensions_Example_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782B26E31F86D4F182C1B872 /* Pods_CGExtensions_CGExtensions_Example_iOS.framework */; };
 		5A44894446E27FB049343ABE /* Pods_CGExtensions_Tests_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC10956587B2903C04A306A /* Pods_CGExtensions_Tests_iOS.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 		28C70B9F955410617D7FCF32 /* Pods_CGExtensions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CGExtensions_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B4ED617327908990093360D /* Pods-CGExtensions_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGExtensions_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CGExtensions_Example/Pods-CGExtensions_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2DC10956587B2903C04A306A /* Pods_CGExtensions_Tests_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CGExtensions_Tests_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		444601277CBE026FF61565D5 /* Pods-CGExtensions-CGExtensions_Example_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGExtensions-CGExtensions_Example_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-CGExtensions-CGExtensions_Example_iOS/Pods-CGExtensions-CGExtensions_Example_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		46D2C3627005069B5D8DBE2E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4B271D848D1B20EA6CA3AF45 /* Pods-CGExtensions_Tests_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGExtensions_Tests_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CGExtensions_Tests_iOS/Pods-CGExtensions_Tests_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		4E4DAE0D6389FE46A67AA644 /* Pods-CGExtensions_Tests_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGExtensions_Tests_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-CGExtensions_Tests_iOS/Pods-CGExtensions_Tests_iOS.release.xcconfig"; sourceTree = "<group>"; };
@@ -49,11 +51,13 @@
 		607FACE51AFB9204008FA782 /* CGExtensions_Tests_iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CGExtensions_Tests_iOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		782B26E31F86D4F182C1B872 /* Pods_CGExtensions_CGExtensions_Example_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CGExtensions_CGExtensions_Example_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CDABE572F90D81F86C014B4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		7CFDB4BA15ECFE0D963FABC5 /* Pods-CGExtensions_Example_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGExtensions_Example_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-CGExtensions_Example_iOS/Pods-CGExtensions_Example_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		8A9A8E570CC2FD2082ACB257 /* Pods_CGExtensions_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CGExtensions_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E4977592B6337507C42BA42 /* Pods-CGExtensions_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGExtensions_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CGExtensions_Example/Pods-CGExtensions_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D8E913D685031775E36E2CA5 /* Pods-CGExtensions_Example_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGExtensions_Example_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CGExtensions_Example_iOS/Pods-CGExtensions_Example_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		E08E482CE86CD088B11FE6F7 /* Pods-CGExtensions-CGExtensions_Example_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGExtensions-CGExtensions_Example_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CGExtensions-CGExtensions_Example_iOS/Pods-CGExtensions-CGExtensions_Example_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		EB5FEB35B67015A5C2976EA7 /* Pods_CGExtensions_Example_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CGExtensions_Example_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -64,6 +68,7 @@
 			files = (
 				B4DFF497A6B30AC1E9930413 /* Pods_CGExtensions_Example.framework in Frameworks */,
 				C7D9B8FCC47F8D64591EBE5E /* Pods_CGExtensions_Example_iOS.framework in Frameworks */,
+				2C66D5F83365ADF16C99AF82 /* Pods_CGExtensions_CGExtensions_Example_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +91,7 @@
 				28C70B9F955410617D7FCF32 /* Pods_CGExtensions_Tests.framework */,
 				EB5FEB35B67015A5C2976EA7 /* Pods_CGExtensions_Example_iOS.framework */,
 				2DC10956587B2903C04A306A /* Pods_CGExtensions_Tests_iOS.framework */,
+				782B26E31F86D4F182C1B872 /* Pods_CGExtensions_CGExtensions_Example_iOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -171,6 +177,8 @@
 				7CFDB4BA15ECFE0D963FABC5 /* Pods-CGExtensions_Example_iOS.release.xcconfig */,
 				4B271D848D1B20EA6CA3AF45 /* Pods-CGExtensions_Tests_iOS.debug.xcconfig */,
 				4E4DAE0D6389FE46A67AA644 /* Pods-CGExtensions_Tests_iOS.release.xcconfig */,
+				E08E482CE86CD088B11FE6F7 /* Pods-CGExtensions-CGExtensions_Example_iOS.debug.xcconfig */,
+				444601277CBE026FF61565D5 /* Pods-CGExtensions-CGExtensions_Example_iOS.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -292,7 +300,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CGExtensions_Example_iOS/Pods-CGExtensions_Example_iOS-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CGExtensions-CGExtensions_Example_iOS/Pods-CGExtensions-CGExtensions_Example_iOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		0FD4E8951419BA01FF6F82E5 /* [CP] Check Pods Manifest.lock */ = {
@@ -322,7 +330,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CGExtensions_Example_iOS/Pods-CGExtensions_Example_iOS-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CGExtensions-CGExtensions_Example_iOS/Pods-CGExtensions-CGExtensions_Example_iOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		903907CF708E0F67343CEE7D /* [CP] Copy Pods Resources */ = {
@@ -504,7 +512,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8E913D685031775E36E2CA5 /* Pods-CGExtensions_Example_iOS.debug.xcconfig */;
+			baseConfigurationReference = E08E482CE86CD088B11FE6F7 /* Pods-CGExtensions-CGExtensions_Example_iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CGExtensions/Info.plist;
@@ -518,7 +526,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CFDB4BA15ECFE0D963FABC5 /* Pods-CGExtensions_Example_iOS.release.xcconfig */;
+			baseConfigurationReference = 444601277CBE026FF61565D5 /* Pods-CGExtensions-CGExtensions_Example_iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CGExtensions/Info.plist;
