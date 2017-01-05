@@ -12,4 +12,8 @@ extension CGPoint {
         return sqrt(dx*dx + dy*dy)
     }
     
+    public static func distanceBetween(_ p1: CGPoint, _ p2: CGPoint) -> CGFloat {
+        return p1.distance(to: p2)
+    }
+    
 }
