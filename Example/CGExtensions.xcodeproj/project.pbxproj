@@ -11,7 +11,7 @@
 		009629691E1EAF3900DDA0AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009629681E1EAF3900DDA0AF /* ViewController.swift */; };
 		0096296B1E1EAF3900DDA0AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0096296A1E1EAF3900DDA0AF /* Assets.xcassets */; };
 		0096296E1E1EAF3900DDA0AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0096296C1E1EAF3900DDA0AF /* Main.storyboard */; };
-		009629791E1EAF3900DDA0AF /* CGExtensions_Example_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009629781E1EAF3900DDA0AF /* CGExtensions_Example_macOSTests.swift */; };
+		009629921E1EB6AA00DDA0AF /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		2C66D5F83365ADF16C99AF82 /* Pods_CGExtensions_CGExtensions_Example_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782B26E31F86D4F182C1B872 /* Pods_CGExtensions_CGExtensions_Example_iOS.framework */; };
 		3ACC45D311EBE59983F3E375 /* Pods_CGExtensions_Tests_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 907BB5E9CE9C0719E441E4FE /* Pods_CGExtensions_Tests_macOS.framework */; };
 		5A44894446E27FB049343ABE /* Pods_CGExtensions_Tests_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC10956587B2903C04A306A /* Pods_CGExtensions_Tests_iOS.framework */; };
@@ -49,8 +49,8 @@
 		0096296D1E1EAF3900DDA0AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0096296F1E1EAF3900DDA0AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		009629741E1EAF3900DDA0AF /* CGExtensions_Tests_macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CGExtensions_Tests_macOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		009629781E1EAF3900DDA0AF /* CGExtensions_Example_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGExtensions_Example_macOSTests.swift; sourceTree = "<group>"; };
-		0096297A1E1EAF3900DDA0AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		009629931E1EB6E500DDA0AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = iOS/Info.plist; sourceTree = "<group>"; };
+		009629941E1EB6F800DDA0AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Tests/macOS/Info.plist; sourceTree = SOURCE_ROOT; };
 		0A6D90F1F5CBE80435ABED6A /* Pods-CGExtensions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGExtensions_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CGExtensions_Tests/Pods-CGExtensions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		0EF8D56E9878263000B86B4A /* CGExtensions.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CGExtensions.podspec; path = ../CGExtensions.podspec; sourceTree = "<group>"; };
 		204F970D16A89BD5A570C04C /* Pods-CGExtensions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGExtensions_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CGExtensions_Tests/Pods-CGExtensions_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -69,7 +69,6 @@
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* CGExtensions_Tests_iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CGExtensions_Tests_iOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6FD22801835FF01DBA438748 /* Pods-CGExtensions_Tests_macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGExtensions_Tests_macOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-CGExtensions_Tests_macOS/Pods-CGExtensions_Tests_macOS.release.xcconfig"; sourceTree = "<group>"; };
 		782B26E31F86D4F182C1B872 /* Pods_CGExtensions_CGExtensions_Example_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CGExtensions_CGExtensions_Example_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,13 +134,13 @@
 			path = CGExtensions_Example_macOS;
 			sourceTree = "<group>";
 		};
-		009629771E1EAF3900DDA0AF /* CGExtensions_Example_macOSTests */ = {
+		009629771E1EAF3900DDA0AF /* macOS */ = {
 			isa = PBXGroup;
 			children = (
-				009629781E1EAF3900DDA0AF /* CGExtensions_Example_macOSTests.swift */,
-				0096297A1E1EAF3900DDA0AF /* Info.plist */,
+				009629941E1EB6F800DDA0AF /* Info.plist */,
 			);
-			path = CGExtensions_Example_macOSTests;
+			name = macOS;
+			path = ../CGExtensions_Example_macOSTests;
 			sourceTree = "<group>";
 		};
 		35E0149173B637204A1C2123 /* Frameworks */ = {
@@ -163,9 +162,8 @@
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for iOS */,
-				607FACE81AFB9204008FA782 /* Tests for iOS */,
 				009629651E1EAF3900DDA0AF /* CGExtensions_Example_macOS */,
-				009629771E1EAF3900DDA0AF /* CGExtensions_Example_macOSTests */,
+				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				BACE175B7B5DEEA2B28D1020 /* Pods */,
 				35E0149173B637204A1C2123 /* Frameworks */,
@@ -205,22 +203,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		607FACE81AFB9204008FA782 /* Tests for iOS */ = {
+		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				607FACEB1AFB9204008FA782 /* Tests.swift */,
-				607FACE91AFB9204008FA782 /* Supporting Files */,
+				607FACE91AFB9204008FA782 /* iOS */,
+				009629771E1EAF3900DDA0AF /* macOS */,
 			);
-			name = "Tests for iOS";
 			path = Tests;
 			sourceTree = "<group>";
 		};
-		607FACE91AFB9204008FA782 /* Supporting Files */ = {
+		607FACE91AFB9204008FA782 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEA1AFB9204008FA782 /* Info.plist */,
+				009629931E1EB6E500DDA0AF /* Info.plist */,
 			);
-			name = "Supporting Files";
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
@@ -623,7 +621,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				009629791E1EAF3900DDA0AF /* CGExtensions_Example_macOSTests.swift in Sources */,
+				009629921E1EB6AA00DDA0AF /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -744,7 +742,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				INFOPLIST_FILE = CGExtensions_Example_macOSTests/Info.plist;
+				INFOPLIST_FILE = Tests/macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.takaiwai.pod.CGExtensions-Example-macOSTests";
@@ -767,7 +765,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = CGExtensions_Example_macOSTests/Info.plist;
+				INFOPLIST_FILE = Tests/macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.takaiwai.pod.CGExtensions-Example-macOSTests";
@@ -906,7 +904,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = Tests/Info.plist;
+				INFOPLIST_FILE = Tests/iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -922,7 +920,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = Tests/Info.plist;
+				INFOPLIST_FILE = Tests/iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
