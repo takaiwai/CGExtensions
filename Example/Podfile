@@ -17,4 +17,10 @@ abstract_target 'CGExtensions' do
       pod 'Nimble-Snapshots'
     end
   end
+
+  target 'CGExtensions_Example_macOS' do
+    target 'CGExtensions_Tests_macOS' do
+      pod_for_testing
+    end
+  end
 end
