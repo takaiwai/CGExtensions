@@ -12,14 +12,14 @@
 		0096296B1E1EAF3900DDA0AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0096296A1E1EAF3900DDA0AF /* Assets.xcassets */; };
 		0096296E1E1EAF3900DDA0AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0096296C1E1EAF3900DDA0AF /* Main.storyboard */; };
 		009629921E1EB6AA00DDA0AF /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		009629981E1EB79200DDA0AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009629951E1EB79200DDA0AF /* AppDelegate.swift */; };
+		009629991E1EB79200DDA0AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 009629961E1EB79200DDA0AF /* Images.xcassets */; };
+		0096299A1E1EB79200DDA0AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009629971E1EB79200DDA0AF /* ViewController.swift */; };
+		009629A01E1EB7C600DDA0AF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0096299C1E1EB7C600DDA0AF /* LaunchScreen.xib */; };
+		009629A11E1EB7C600DDA0AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0096299E1E1EB7C600DDA0AF /* Main.storyboard */; };
 		2C66D5F83365ADF16C99AF82 /* Pods_CGExtensions_CGExtensions_Example_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782B26E31F86D4F182C1B872 /* Pods_CGExtensions_CGExtensions_Example_iOS.framework */; };
 		3ACC45D311EBE59983F3E375 /* Pods_CGExtensions_Tests_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 907BB5E9CE9C0719E441E4FE /* Pods_CGExtensions_Tests_macOS.framework */; };
 		5A44894446E27FB049343ABE /* Pods_CGExtensions_Tests_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC10956587B2903C04A306A /* Pods_CGExtensions_Tests_iOS.framework */; };
-		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
-		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
-		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		DBA18ED0FB6610693D9D8477 /* Pods_CGExtensions_CGExtensions_Example_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE2C1C5C7D911AAD1611C4A /* Pods_CGExtensions_CGExtensions_Example_macOS.framework */; };
 /* End PBXBuildFile section */
@@ -51,6 +51,12 @@
 		009629741E1EAF3900DDA0AF /* CGExtensions_Tests_macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CGExtensions_Tests_macOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		009629931E1EB6E500DDA0AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = iOS/Info.plist; sourceTree = "<group>"; };
 		009629941E1EB6F800DDA0AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Tests/macOS/Info.plist; sourceTree = SOURCE_ROOT; };
+		009629951E1EB79200DDA0AF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Example_iOS/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		009629961E1EB79200DDA0AF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Example_iOS/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		009629971E1EB79200DDA0AF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Example_iOS/ViewController.swift; sourceTree = SOURCE_ROOT; };
+		0096299B1E1EB7A500DDA0AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Example_iOS/Info.plist; sourceTree = SOURCE_ROOT; };
+		0096299D1E1EB7C600DDA0AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Example_iOS/Base.lproj/LaunchScreen.xib; sourceTree = SOURCE_ROOT; };
+		0096299F1E1EB7C600DDA0AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Example_iOS/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		0A6D90F1F5CBE80435ABED6A /* Pods-CGExtensions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGExtensions_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CGExtensions_Tests/Pods-CGExtensions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		0EF8D56E9878263000B86B4A /* CGExtensions.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CGExtensions.podspec; path = ../CGExtensions.podspec; sourceTree = "<group>"; };
 		204F970D16A89BD5A570C04C /* Pods-CGExtensions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGExtensions_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CGExtensions_Tests/Pods-CGExtensions_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -62,12 +68,6 @@
 		4B271D848D1B20EA6CA3AF45 /* Pods-CGExtensions_Tests_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGExtensions_Tests_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CGExtensions_Tests_iOS/Pods-CGExtensions_Tests_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		4E4DAE0D6389FE46A67AA644 /* Pods-CGExtensions_Tests_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGExtensions_Tests_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-CGExtensions_Tests_iOS/Pods-CGExtensions_Tests_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* CGExtensions_Example_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CGExtensions_Example_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* CGExtensions_Tests_iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CGExtensions_Tests_iOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6FD22801835FF01DBA438748 /* Pods-CGExtensions_Tests_macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGExtensions_Tests_macOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-CGExtensions_Tests_macOS/Pods-CGExtensions_Tests_macOS.release.xcconfig"; sourceTree = "<group>"; };
@@ -143,6 +143,26 @@
 			path = ../CGExtensions_Example_macOSTests;
 			sourceTree = "<group>";
 		};
+		009629A21E1EB7CB00DDA0AF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				0096299E1E1EB7C600DDA0AF /* Main.storyboard */,
+				009629971E1EB79200DDA0AF /* ViewController.swift */,
+				009629961E1EB79200DDA0AF /* Images.xcassets */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		009629A31E1EB7D900DDA0AF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				009629951E1EB79200DDA0AF /* AppDelegate.swift */,
+				0096299C1E1EB7C600DDA0AF /* LaunchScreen.xib */,
+				0096299B1E1EB7A500DDA0AF /* Info.plist */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
 		35E0149173B637204A1C2123 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,23 +204,11 @@
 		607FACD21AFB9204008FA782 /* Example for iOS */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
-				607FACD31AFB9204008FA782 /* Supporting Files */,
+				009629A31E1EB7D900DDA0AF /* Main */,
+				009629A21E1EB7CB00DDA0AF /* UI */,
 			);
 			name = "Example for iOS";
 			path = CGExtensions;
-			sourceTree = "<group>";
-		};
-		607FACD31AFB9204008FA782 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				607FACD41AFB9204008FA782 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		607FACE81AFB9204008FA782 /* Tests */ = {
@@ -409,9 +417,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
-				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				009629A11E1EB7C600DDA0AF /* Main.storyboard in Resources */,
+				009629A01E1EB7C600DDA0AF /* LaunchScreen.xib in Resources */,
+				009629991E1EB79200DDA0AF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -629,8 +637,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				009629981E1EB79200DDA0AF /* AppDelegate.swift in Sources */,
+				0096299A1E1EB79200DDA0AF /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -666,20 +674,20 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
+		0096299C1E1EB7C600DDA0AF /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDF1AFB9204008FA782 /* Base */,
+				0096299D1E1EB7C600DDA0AF /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		0096299E1E1EB7C600DDA0AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0096299F1E1EB7C600DDA0AF /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -869,7 +877,7 @@
 			baseConfigurationReference = E08E482CE86CD088B11FE6F7 /* Pods-CGExtensions-CGExtensions_Example_iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = CGExtensions/Info.plist;
+				INFOPLIST_FILE = Example_iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -883,7 +891,7 @@
 			baseConfigurationReference = 444601277CBE026FF61565D5 /* Pods-CGExtensions-CGExtensions_Example_iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = CGExtensions/Info.plist;
+				INFOPLIST_FILE = Example_iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -896,10 +904,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4B271D848D1B20EA6CA3AF45 /* Pods-CGExtensions_Tests_iOS.debug.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -916,10 +920,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4E4DAE0D6389FE46A67AA644 /* Pods-CGExtensions_Tests_iOS.release.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
 				INFOPLIST_FILE = Tests/iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
