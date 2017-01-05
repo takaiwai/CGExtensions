@@ -736,7 +736,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DD43E0A893EB658FC922047D /* Pods-CGExtensions_Tests_macOS.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -761,7 +760,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6FD22801835FF01DBA438748 /* Pods-CGExtensions_Tests_macOS.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
