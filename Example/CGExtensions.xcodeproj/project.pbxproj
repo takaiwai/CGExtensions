@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A44894446E27FB049343ABE /* Pods_CGExtensions_Tests_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC10956587B2903C04A306A /* Pods_CGExtensions_Tests_iOS.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		B4DFF497A6B30AC1E9930413 /* Pods_CGExtensions_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9A8E570CC2FD2082ACB257 /* Pods_CGExtensions_Example.framework */; };
 		C52F84519C780FB0EE0F38BB /* Pods_CGExtensions_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28C70B9F955410617D7FCF32 /* Pods_CGExtensions_Tests.framework */; };
+		C7D9B8FCC47F8D64591EBE5E /* Pods_CGExtensions_Example_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB5FEB35B67015A5C2976EA7 /* Pods_CGExtensions_Example_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,20 +35,26 @@
 		204F970D16A89BD5A570C04C /* Pods-CGExtensions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGExtensions_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CGExtensions_Tests/Pods-CGExtensions_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		28C70B9F955410617D7FCF32 /* Pods_CGExtensions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CGExtensions_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B4ED617327908990093360D /* Pods-CGExtensions_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGExtensions_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CGExtensions_Example/Pods-CGExtensions_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2DC10956587B2903C04A306A /* Pods_CGExtensions_Tests_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CGExtensions_Tests_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46D2C3627005069B5D8DBE2E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		607FACD01AFB9204008FA782 /* CGExtensions_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CGExtensions_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B271D848D1B20EA6CA3AF45 /* Pods-CGExtensions_Tests_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGExtensions_Tests_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CGExtensions_Tests_iOS/Pods-CGExtensions_Tests_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		4E4DAE0D6389FE46A67AA644 /* Pods-CGExtensions_Tests_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGExtensions_Tests_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-CGExtensions_Tests_iOS/Pods-CGExtensions_Tests_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		607FACD01AFB9204008FA782 /* CGExtensions_Example_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CGExtensions_Example_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* CGExtensions_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CGExtensions_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACE51AFB9204008FA782 /* CGExtensions_Tests_iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CGExtensions_Tests_iOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7CDABE572F90D81F86C014B4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7CFDB4BA15ECFE0D963FABC5 /* Pods-CGExtensions_Example_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGExtensions_Example_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-CGExtensions_Example_iOS/Pods-CGExtensions_Example_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		8A9A8E570CC2FD2082ACB257 /* Pods_CGExtensions_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CGExtensions_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E4977592B6337507C42BA42 /* Pods-CGExtensions_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGExtensions_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CGExtensions_Example/Pods-CGExtensions_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D8E913D685031775E36E2CA5 /* Pods-CGExtensions_Example_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGExtensions_Example_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CGExtensions_Example_iOS/Pods-CGExtensions_Example_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		EB5FEB35B67015A5C2976EA7 /* Pods_CGExtensions_Example_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CGExtensions_Example_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4DFF497A6B30AC1E9930413 /* Pods_CGExtensions_Example.framework in Frameworks */,
+				C7D9B8FCC47F8D64591EBE5E /* Pods_CGExtensions_Example_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +72,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C52F84519C780FB0EE0F38BB /* Pods_CGExtensions_Tests.framework in Frameworks */,
+				5A44894446E27FB049343ABE /* Pods_CGExtensions_Tests_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +84,8 @@
 			children = (
 				8A9A8E570CC2FD2082ACB257 /* Pods_CGExtensions_Example.framework */,
 				28C70B9F955410617D7FCF32 /* Pods_CGExtensions_Tests.framework */,
+				EB5FEB35B67015A5C2976EA7 /* Pods_CGExtensions_Example_iOS.framework */,
+				2DC10956587B2903C04A306A /* Pods_CGExtensions_Tests_iOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -93,8 +105,8 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* CGExtensions_Example.app */,
-				607FACE51AFB9204008FA782 /* CGExtensions_Tests.xctest */,
+				607FACD01AFB9204008FA782 /* CGExtensions_Example_iOS.app */,
+				607FACE51AFB9204008FA782 /* CGExtensions_Tests_iOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -155,6 +167,10 @@
 				9E4977592B6337507C42BA42 /* Pods-CGExtensions_Example.release.xcconfig */,
 				0A6D90F1F5CBE80435ABED6A /* Pods-CGExtensions_Tests.debug.xcconfig */,
 				204F970D16A89BD5A570C04C /* Pods-CGExtensions_Tests.release.xcconfig */,
+				D8E913D685031775E36E2CA5 /* Pods-CGExtensions_Example_iOS.debug.xcconfig */,
+				7CFDB4BA15ECFE0D963FABC5 /* Pods-CGExtensions_Example_iOS.release.xcconfig */,
+				4B271D848D1B20EA6CA3AF45 /* Pods-CGExtensions_Tests_iOS.debug.xcconfig */,
+				4E4DAE0D6389FE46A67AA644 /* Pods-CGExtensions_Tests_iOS.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -162,9 +178,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACCF1AFB9204008FA782 /* CGExtensions_Example */ = {
+		607FACCF1AFB9204008FA782 /* CGExtensions_Example_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "CGExtensions_Example" */;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "CGExtensions_Example_iOS" */;
 			buildPhases = (
 				E2A1E67EB0A40B45DA75AE1A /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
@@ -177,14 +193,14 @@
 			);
 			dependencies = (
 			);
-			name = CGExtensions_Example;
+			name = CGExtensions_Example_iOS;
 			productName = CGExtensions;
-			productReference = 607FACD01AFB9204008FA782 /* CGExtensions_Example.app */;
+			productReference = 607FACD01AFB9204008FA782 /* CGExtensions_Example_iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		607FACE41AFB9204008FA782 /* CGExtensions_Tests */ = {
+		607FACE41AFB9204008FA782 /* CGExtensions_Tests_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "CGExtensions_Tests" */;
+			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "CGExtensions_Tests_iOS" */;
 			buildPhases = (
 				0FD4E8951419BA01FF6F82E5 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
@@ -198,9 +214,9 @@
 			dependencies = (
 				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
 			);
-			name = CGExtensions_Tests;
+			name = CGExtensions_Tests_iOS;
 			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* CGExtensions_Tests.xctest */;
+			productReference = 607FACE51AFB9204008FA782 /* CGExtensions_Tests_iOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -237,8 +253,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACCF1AFB9204008FA782 /* CGExtensions_Example */,
-				607FACE41AFB9204008FA782 /* CGExtensions_Tests */,
+				607FACCF1AFB9204008FA782 /* CGExtensions_Example_iOS */,
+				607FACE41AFB9204008FA782 /* CGExtensions_Tests_iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -276,7 +292,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CGExtensions_Example/Pods-CGExtensions_Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CGExtensions_Example_iOS/Pods-CGExtensions_Example_iOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		0FD4E8951419BA01FF6F82E5 /* [CP] Check Pods Manifest.lock */ = {
@@ -306,7 +322,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CGExtensions_Example/Pods-CGExtensions_Example-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CGExtensions_Example_iOS/Pods-CGExtensions_Example_iOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		903907CF708E0F67343CEE7D /* [CP] Copy Pods Resources */ = {
@@ -321,7 +337,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CGExtensions_Tests/Pods-CGExtensions_Tests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CGExtensions_Tests_iOS/Pods-CGExtensions_Tests_iOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BA4F9A20ADF31DC087BF885A /* [CP] Embed Pods Frameworks */ = {
@@ -336,7 +352,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CGExtensions_Tests/Pods-CGExtensions_Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CGExtensions_Tests_iOS/Pods-CGExtensions_Tests_iOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E2A1E67EB0A40B45DA75AE1A /* [CP] Check Pods Manifest.lock */ = {
@@ -379,7 +395,7 @@
 /* Begin PBXTargetDependency section */
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* CGExtensions_Example */;
+			target = 607FACCF1AFB9204008FA782 /* CGExtensions_Example_iOS */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -488,7 +504,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B4ED617327908990093360D /* Pods-CGExtensions_Example.debug.xcconfig */;
+			baseConfigurationReference = D8E913D685031775E36E2CA5 /* Pods-CGExtensions_Example_iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CGExtensions/Info.plist;
@@ -502,7 +518,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E4977592B6337507C42BA42 /* Pods-CGExtensions_Example.release.xcconfig */;
+			baseConfigurationReference = 7CFDB4BA15ECFE0D963FABC5 /* Pods-CGExtensions_Example_iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CGExtensions/Info.plist;
@@ -516,7 +532,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A6D90F1F5CBE80435ABED6A /* Pods-CGExtensions_Tests.debug.xcconfig */;
+			baseConfigurationReference = 4B271D848D1B20EA6CA3AF45 /* Pods-CGExtensions_Tests_iOS.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -536,7 +552,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 204F970D16A89BD5A570C04C /* Pods-CGExtensions_Tests.release.xcconfig */;
+			baseConfigurationReference = 4E4DAE0D6389FE46A67AA644 /* Pods-CGExtensions_Tests_iOS.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -562,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "CGExtensions_Example" */ = {
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "CGExtensions_Example_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
@@ -571,7 +587,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "CGExtensions_Tests" */ = {
+		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "CGExtensions_Tests_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,

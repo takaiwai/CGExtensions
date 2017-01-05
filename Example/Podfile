@@ -1,9 +1,9 @@
 use_frameworks!
 
-target 'CGExtensions_Example' do
+target 'CGExtensions_Example_iOS' do
   pod 'CGExtensions', :path => '../'
 
-  target 'CGExtensions_Tests' do
+  target 'CGExtensions_Tests_iOS' do
     inherit! :search_paths
 
     pod 'Quick', '~> 1.0.0'

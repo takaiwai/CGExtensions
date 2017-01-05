@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "CGExtensions_Example.app"
-               BlueprintName = "CGExtensions_Example"
+               BuildableName = "CGExtensions_Example_iOS.app"
+               BlueprintName = "CGExtensions_Example_iOS"
                ReferencedContainer = "container:CGExtensions.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,8 +29,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "CGExtensions_Tests.xctest"
-               BlueprintName = "CGExtensions_Tests"
+               BuildableName = "CGExtensions_Tests_iOS.xctest"
+               BlueprintName = "CGExtensions_Tests_iOS"
                ReferencedContainer = "container:CGExtensions.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,8 +47,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "CGExtensions_Tests.xctest"
-               BlueprintName = "CGExtensions_Tests"
+               BuildableName = "CGExtensions_Tests_iOS.xctest"
+               BlueprintName = "CGExtensions_Tests_iOS"
                ReferencedContainer = "container:CGExtensions.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -57,8 +57,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "CGExtensions_Example.app"
-            BlueprintName = "CGExtensions_Example"
+            BuildableName = "CGExtensions_Example_iOS.app"
+            BlueprintName = "CGExtensions_Example_iOS"
             ReferencedContainer = "container:CGExtensions.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -80,8 +80,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "CGExtensions_Example.app"
-            BlueprintName = "CGExtensions_Example"
+            BuildableName = "CGExtensions_Example_iOS.app"
+            BlueprintName = "CGExtensions_Example_iOS"
             ReferencedContainer = "container:CGExtensions.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -99,8 +99,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "CGExtensions_Example.app"
-            BlueprintName = "CGExtensions_Example"
+            BuildableName = "CGExtensions_Example_iOS.app"
+            BlueprintName = "CGExtensions_Example_iOS"
             ReferencedContainer = "container:CGExtensions.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
