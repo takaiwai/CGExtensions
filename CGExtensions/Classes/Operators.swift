@@ -40,13 +40,6 @@ public func / (p: CGPoint, rhs: (CGFloat, CGFloat)) -> CGPoint {
 
 // MARK: - CGPoint and CGPoint
 
-public func + (lhs: CGPoint, rhs: CGPoint) -> CGPoint {
-    return CGPoint(x: lhs.x+rhs.x, y: lhs.y+rhs.y)
-}
-
-public func - (lhs: CGPoint, rhs: CGPoint) -> CGPoint {
-    return CGPoint(x: lhs.x-rhs.x, y: lhs.y-rhs.y)
-}
 
 
 // MARK: - CGSize and CGFloat
