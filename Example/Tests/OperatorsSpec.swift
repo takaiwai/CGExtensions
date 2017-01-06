@@ -36,6 +36,36 @@ class OperatorsSpec: QuickSpec {
             }
         }
 
+        describe("CGPoint and (CGFloat, CGFloat)") {
+            describe("+") {
+                it("adds each value of tuple separately to x and y") {
+                    let s = CGPoint(x: 100.0, y: 50.0) + (20.5, 10.5)
+                    expect(s) == CGPoint(x: 120.5, y: 60.5)
+                }
+            }
+
+            describe("-") {
+                it("subtracts each value of tuple separately from x and y") {
+                    let s = CGPoint(x: 100.0, y: 50.0) - (20.5, 10.5)
+                    expect(s) == CGPoint(x: 79.5, y: 39.5)
+                }
+            }
+
+            describe("*") {
+                it("multiplies x and y separately by each value of tuples") {
+                    let s = CGPoint(x: 100.0, y: 50.0) * (1.5, 2.0)
+                    expect(s) == CGPoint(x: 150.0, y: 100.0)
+                }
+            }
+
+            describe("/") {
+                it("divides x and y separately by each value of tuples") {
+                    let s = CGPoint(x: 100.0, y: 50.0) / (2.0, 5.0)
+                    expect(s) == CGPoint(x: 50.0, y: 10.0)
+                }
+            }
+        }
+
         describe("CGPoint and CGPoint") {
             describe("+") {
                 it("returns a new CGPoint by adding the two") {

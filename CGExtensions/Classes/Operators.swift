@@ -19,6 +19,25 @@ public func / (p: CGPoint, s: CGFloat) -> CGPoint {
 }
 
 
+// MARK: - CGPoint and (CGFloat, CGFloat)
+
+public func + (p: CGPoint, rhs: (CGFloat, CGFloat)) -> CGPoint {
+    return CGPoint(x: p.x+rhs.0, y: p.y+rhs.1)
+}
+
+public func - (p: CGPoint, rhs: (CGFloat, CGFloat)) -> CGPoint {
+    return CGPoint(x: p.x-rhs.0, y: p.y-rhs.1)
+}
+
+public func * (p: CGPoint, rhs: (CGFloat, CGFloat)) -> CGPoint {
+    return CGPoint(x: p.x*rhs.0, y: p.y*rhs.1)
+}
+
+public func / (p: CGPoint, rhs: (CGFloat, CGFloat)) -> CGPoint {
+    return CGPoint(x: p.x/rhs.0, y: p.y/rhs.1)
+}
+
+
 // MARK: - CGPoint and CGPoint
 
 public func + (lhs: CGPoint, rhs: CGPoint) -> CGPoint {
