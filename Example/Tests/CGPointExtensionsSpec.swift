@@ -80,6 +80,19 @@ class CGPointExtensionsSpec: QuickSpec {
                     expect(result.y) ≈ 439.5132
                 }
             }
+
+            describe("CGPoint.lerp(from:to:progress)") {
+                it("is a static version of lerp(to:progress:)") {
+                    let from = CGPoint(x: -491.5273, y: 721.3154)
+                    let to = CGPoint(x: 72.67395, y: -492.43225)
+
+                    let result1 = from.lerp(to: to, progress: 0.23217529)
+                    let result2 = CGPoint.lerp(from: from, to: to, progress: 0.23217529)
+
+                    expect(result1.x) ≈ result2.x
+                    expect(result1.y) ≈ result2.y
+                }
+            }
             
         }
     }

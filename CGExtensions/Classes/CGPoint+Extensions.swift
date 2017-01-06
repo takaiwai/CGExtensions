@@ -26,5 +26,9 @@ extension CGPoint {
             y: self.y + (target.y - self.y) * progress
         )
     }
+
+    public static func lerp(from: CGPoint, to: CGPoint, progress: CGFloat) -> CGPoint {
+        return from.lerp(to: to, progress: progress)
+    }
     
 }
