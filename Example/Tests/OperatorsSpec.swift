@@ -118,28 +118,28 @@ class OperatorsSpec: QuickSpec {
         
         describe("CGSize and (CGFloat, CGFloat)") {
             describe("+") {
-                it("adds each value of tuple separetely to width and height") {
+                it("adds each value of tuple separately to width and height") {
                     let s = CGSize(100.0, 50.0) + (20.5, 10.5)
                     expect(s) == CGSize(120.5, 60.5)
                 }
             }
             
             describe("-") {
-                it("subtracts each value of tuple separetely from width and height") {
+                it("subtracts each value of tuple separately from width and height") {
                     let s = CGSize(100.0, 50.0) - (20.5, 10.5)
                     expect(s) == CGSize(79.5, 39.5)
                 }
             }
             
             describe("*") {
-                it("multiplies width and height separetely by each value of tuples") {
+                it("multiplies width and height separately by each value of tuples") {
                     let s = CGSize(100.0, 50.0) * (1.5, 2.0)
                     expect(s) == CGSize(150.0, 100.0)
                 }
             }
             
             describe("/") {
-                it("divides width and height separetely by each value of tuples") {
+                it("divides width and height separately by each value of tuples") {
                     let s = CGSize(100.0, 50.0) / (2.0, 5.0)
                     expect(s) == CGSize(50.0, 10.0)
                 }
