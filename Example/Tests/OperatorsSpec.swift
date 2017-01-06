@@ -4,7 +4,38 @@ import CGExtensions
 
 class OperatorsSpec: QuickSpec {
     override func spec() {
-        
+
+        describe("CGPoint and CGFloat") {
+            describe("+") {
+                it("adds rhs to both x and y") {
+                    let p = CGPoint(x: 12.3, y: 56.7) + 15.0
+                    expect(p) == CGPoint(x: 27.3, y: 71.7)
+                }
+            }
+
+            describe("-") {
+                it("subtracts rhs from both x and y") {
+                    let p = CGPoint(x: 12.3, y: 56.7) - 10.0
+                    expect(p.x) ≈ 2.3
+                    expect(p.y) ≈ 46.7
+                }
+            }
+
+            describe("*") {
+                it("returns a new CGPoint by multiplying") {
+                    let p = CGPoint(10.0, 20.0) * 1.5
+                    expect(p) == CGPoint(15.0, 30.0)
+                }
+            }
+
+            describe("/") {
+                it("returns a new CGPoint by dividing") {
+                    let p = CGPoint(10.0, 20.0) / 2.0
+                    expect(p) == CGPoint(5.0, 10.0)
+                }
+            }
+        }
+
         describe("CGPoint and CGPoint") {
             describe("+") {
                 it("returns a new CGPoint by adding the two") {
@@ -21,26 +52,6 @@ class OperatorsSpec: QuickSpec {
                     let p2 = CGPoint(1.5, 3.4)
                     let result = p1 - p2
                     expect(result) == CGPoint(8.5, 16.6)
-                }
-            }
-        }
-        
-        describe("CGPoint and CGFloat") {
-            describe("*") {
-                it("returns a new CGPoint by multiplying") {
-                    let p = CGPoint(10.0, 20.0)
-                    let s: CGFloat = 1.5
-                    let result = p * s
-                    expect(result) == CGPoint(15.0, 30.0)
-                }
-            }
-            
-            describe("/") {
-                it("returns a new CGPoint by dividing") {
-                    let p = CGPoint(10.0, 20.0)
-                    let s: CGFloat = 2.0
-                    let result = p / s
-                    expect(result) == CGPoint(5.0, 10.0)
                 }
             }
         }
