@@ -79,7 +79,33 @@ class OperatorsSpec: QuickSpec {
                 }
             }
         }
-        
+
+        describe("CGPoint and CGVector") {
+            describe("+") {
+                it("return a CGPoint applying a CGVector") {
+                    let point = CGPoint(x: 63.9, y: -32.5)
+                    let vector = CGVector(dx: -10.0, dy: 25.0)
+
+                    let result = point + vector
+
+                    expect(result.x) ≈ 53.9
+                    expect(result.y) ≈ -7.5
+                }
+            }
+
+            describe("-") {
+                it("return a CGPoint applying the inverse of CGVector") {
+                    let point = CGPoint(x: 63.9, y: -32.5)
+                    let vector = CGVector(dx: -10.0, dy: 25.0)
+
+                    let result = point - vector
+
+                    expect(result.x) ≈ 73.9
+                    expect(result.y) ≈ -57.5
+                }
+            }
+        }
+
         describe("CGSize and CGFloat") {
             describe("+") {
                 it("adds right hand size to both width and height") {

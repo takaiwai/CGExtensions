@@ -45,6 +45,17 @@ public func - (lhs: CGPoint, rhs: CGPoint) -> CGVector {
 }
 
 
+// MARK: - CGPoint and CGVector
+
+public func + (p: CGPoint, v: CGVector) -> CGPoint {
+    return CGPoint(x: p.x+v.dx, y: p.y+v.dy)
+}
+
+public func - (p: CGPoint, v: CGVector) -> CGPoint {
+    return CGPoint(x: p.x-v.dx, y: p.y-v.dy)
+}
+
+
 // MARK: - CGSize and CGFloat
 
 public func + (lhs: CGSize, rhs: CGFloat) -> CGSize {
