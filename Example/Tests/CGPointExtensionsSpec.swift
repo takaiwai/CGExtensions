@@ -52,6 +52,34 @@ class CGPointExtensionsSpec: QuickSpec {
                     expect(result) ≈ 28.284271
                 }
             }
+
+            describe("lerp(to:progress:)") {
+                let p1 = CGPoint(x: 0.0, y: 0.0)
+                let p2 = CGPoint(x: 100.0, y: 50.0)
+
+                it("performs linear interpolation between the points") {
+                    let result = p1.lerp(to: p2, progress: 0.2)
+                    expect(result) == CGPoint(x: 20.0, y: 10.0)
+                }
+
+                it("takes progress (0.0 - 1.0)") {
+                    let r1 = p1.lerp(to: p2, progress: 0.0)
+                    expect(r1) == p1
+
+                    let r2 = p1.lerp(to: p2, progress: 1.0)
+                    expect(r2) == p2
+                }
+
+                it("works with any arbitrary point") {
+                    let from = CGPoint(x: -491.5273, y: 721.3154)
+                    let to = CGPoint(x: 72.67395, y: -492.43225)
+
+                    let result = from.lerp(to: to, progress: 0.23217529)
+
+                    expect(result.x) ≈ -360.5337
+                    expect(result.y) ≈ 439.5132
+                }
+            }
             
         }
     }
