@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0068F8C91E1F572C006627E1 /* FloatingPointExtensionsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0068F8C81E1F572C006627E1 /* FloatingPointExtensionsSpec.swift */; };
+		0068F8CA1E1F572C006627E1 /* FloatingPointExtensionsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0068F8C81E1F572C006627E1 /* FloatingPointExtensionsSpec.swift */; };
 		009629921E1EB6AA00DDA0AF /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		009629981E1EB79200DDA0AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009629951E1EB79200DDA0AF /* AppDelegate.swift */; };
 		009629991E1EB79200DDA0AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 009629961E1EB79200DDA0AF /* Images.xcassets */; };
@@ -46,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0068F8C81E1F572C006627E1 /* FloatingPointExtensionsSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingPointExtensionsSpec.swift; sourceTree = "<group>"; };
 		009629641E1EAF3900DDA0AF /* CGExtensions_Example_macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CGExtensions_Example_macOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		009629741E1EAF3900DDA0AF /* CGExtensions_Tests_macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CGExtensions_Tests_macOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		009629931E1EB6E500DDA0AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = iOS/Info.plist; sourceTree = "<group>"; };
@@ -238,6 +241,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				0068F8C81E1F572C006627E1 /* FloatingPointExtensionsSpec.swift */,
 				009629B11E1ECA2800DDA0AF /* CGPointExtensionsSpec.swift */,
 				009629B41E1ECE7C00DDA0AF /* OperatorsSpec.swift */,
 				607FACE91AFB9204008FA782 /* iOS */,
@@ -657,6 +661,7 @@
 				009629921E1EB6AA00DDA0AF /* Tests.swift in Sources */,
 				009629B61E1ECE7C00DDA0AF /* OperatorsSpec.swift in Sources */,
 				009629B31E1ECA2800DDA0AF /* CGPointExtensionsSpec.swift in Sources */,
+				0068F8CA1E1F572C006627E1 /* FloatingPointExtensionsSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -676,6 +681,7 @@
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 				009629B51E1ECE7C00DDA0AF /* OperatorsSpec.swift in Sources */,
 				009629B21E1ECA2800DDA0AF /* CGPointExtensionsSpec.swift in Sources */,
+				0068F8C91E1F572C006627E1 /* FloatingPointExtensionsSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
