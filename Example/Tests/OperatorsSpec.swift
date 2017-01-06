@@ -67,6 +67,17 @@ class OperatorsSpec: QuickSpec {
         }
 
         describe("CGPoint and CGPoint") {
+            describe("-") {
+                it("return a CGVector representing the difference between two points") {
+                    let p1 = CGPoint(x: 10.0, y: 20.0)
+                    let p2 = CGPoint(x: 100.5, y: 50.7)
+
+                    let vector = p2 - p1
+
+                    expect(vector.dx) ≈ 90.5
+                    expect(vector.dy) ≈ 30.7
+                }
+            }
         }
         
         describe("CGSize and CGFloat") {
