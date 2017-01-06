@@ -5,6 +5,10 @@ extension CGPoint {
     public init(_ x: CGFloat, _ y: CGFloat) {
         self.init(x: x, y: y)
     }
+
+    public init(vector: CGVector) {
+        self.init(x: vector.dx, y: vector.dy)
+    }
     
     public func distance(to other: CGPoint) -> CGFloat {
         let dx = x - other.x

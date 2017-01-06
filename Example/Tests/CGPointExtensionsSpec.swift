@@ -12,6 +12,13 @@ class CGPointExtensionsSpec: QuickSpec {
                     expect(p) == CGPoint(x: 12.3, y: 45.6)
                 }
             }
+
+            describe("init(vector:)") {
+                it("takes a CGVector") {
+                    let p = CGPoint(vector: CGVector(dx: 10.0, dy: 20.5))
+                    expect(p) == CGPoint(x: 10.0, y: 20.5)
+                }
+            }
             
             describe("distance(to:)") {
                 it("calculates distance to the other point") {
