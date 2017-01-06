@@ -11,5 +11,5 @@ podfile: Example/Podfile
 # - gem install cocoapods # Since Travis is not always on latest version
 # - pod install --project-directory=Example
 script:
-- set -o pipefail && xcodebuild test -workspace Example/CGExtensions.xcworkspace -scheme CGExtensions-Example -sdk iphonesimulator9.0 ONLY_ACTIVE_ARCH=NO | xcpretty
-- bundle pod lib lint
+- set -o pipefail && xcodebuild test -workspace Example/CGExtensions.xcworkspace -scheme CGExtensions_Example_macOS -sdk macosx10.12 ONLY_ACTIVE_ARCH=NO | xcpretty
+- bundle exec pod lib lint
