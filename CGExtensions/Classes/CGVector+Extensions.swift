@@ -48,4 +48,13 @@ extension CGVector {
         }
     }
 
+    public func normalized() -> CGVector {
+        var n = self
+        n.length = 1.0
+        return n
+    }
+
+    public mutating func normalize() {
+        self.length = 1.0
+    }
 }

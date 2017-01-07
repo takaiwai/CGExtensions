@@ -147,6 +147,40 @@ class CGVectorExtensionsSpec: QuickSpec {
                 }
             }
 
+            describe("normalized()") {
+                it("returns a new unit vector which has the same angle") {
+                    let v1 = CGVector(dx: 527.0, dy:81.0)
+                    let n1 = v1.normalized()
+
+                    expect(n1.angle) ≈ v1.angle
+                    expect(n1.length) ≈ 1.0
+
+                    let v2 = CGVector(dx: -184.6, dy: 0.2)
+                    let n2 = v2.normalized()
+
+                    expect(n2.angle) ≈ v2.angle
+                    expect(n2.length) ≈ 1.0
+                }
+            }
+
+            describe("normalize()") {
+                it("mutates the vector to a length of 1.0") {
+                    var v1 = CGVector(dx: 527.0, dy:81.0)
+                    let a1 = v1.angle
+                    v1.normalize()
+
+                    expect(v1.angle) ≈ a1
+                    expect(v1.length) ≈ 1.0
+
+                    var v2 = CGVector(dx: -184.6, dy: 0.2)
+                    let a2 = v2.angle
+                    v2.normalize()
+
+                    expect(v2.angle) ≈ a2
+                    expect(v2.length) ≈ 1.0
+                }
+            }
+
         }
     }
 }
