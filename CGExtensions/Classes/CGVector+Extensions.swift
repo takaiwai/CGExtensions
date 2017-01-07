@@ -32,4 +32,10 @@ extension CGVector {
         }
     }
 
+    public var polarComponents: (angle: CGFloat, length: CGFloat) {
+        get {
+            return (self.angle, self.length)
+        }
+    }
+
 }

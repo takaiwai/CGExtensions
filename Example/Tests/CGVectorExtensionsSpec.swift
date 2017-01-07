@@ -95,6 +95,18 @@ class CGVectorExtensionsSpec: QuickSpec {
                 }
             }
 
+            describe("polarComponents") {
+                it("returns a tuple of (angle, length)") {
+                    let (angle, length) = CGVector(dx: 527.0, dy:81.0).polarComponents
+                    expect(angle) ≈ 0.15250674
+                    expect(length) ≈ 533.18854
+
+                    let c = CGVector(dx: -184.6, dy: 0.2).polarComponents
+                    expect(c.angle) ≈ 3.1405091
+                    expect(c.length) ≈ 184.60011
+                }
+            }
+
         }
     }
 }
