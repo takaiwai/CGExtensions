@@ -92,3 +92,14 @@ public func * (lhs: CGSize, rhs: (CGFloat, CGFloat)) -> CGSize {
 public func / (lhs: CGSize, rhs: (CGFloat, CGFloat)) -> CGSize {
     return CGSize(width: lhs.width / rhs.0, height: lhs.height / rhs.1)
 }
+
+
+// MARK: - CGVector and CGVector
+
+public func + (lhs: CGVector, rhs: CGVector) -> CGVector {
+    return CGVector(dx: lhs.dx+rhs.dx, dy: lhs.dy+rhs.dy)
+}
+
+public func - (lhs: CGVector, rhs: CGVector) -> CGVector {
+    return CGVector(dx: lhs.dx-rhs.dx, dy: lhs.dy-rhs.dy)
+}

@@ -166,5 +166,31 @@ class OperatorsSpec: QuickSpec {
             }
         }
 
+        describe("CGVector and CGVector") {
+            describe("+") {
+                it("return a CGVector by adding the right hand side") {
+                    let v1 = CGVector(dx: 63.9, dy: -32.5)
+                    let v2 = CGVector(dx: -10.0, dy: 25.0)
+
+                    let result = v1 + v2
+
+                    expect(result.dx) ≈ 53.9
+                    expect(result.dy) ≈ -7.5
+                }
+            }
+
+            describe("-") {
+                it("return a CGVector by adding the right hand side") {
+                    let v1 = CGVector(dx: 63.9, dy: -32.5)
+                    let v2 = CGVector(dx: -10.0, dy: 25.0)
+
+                    let result = v1 - v2
+
+                    expect(result.dx) ≈ 73.9
+                    expect(result.dy) ≈ -57.5
+                }
+            }
+        }
+
     }
 }
