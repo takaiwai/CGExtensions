@@ -85,6 +85,16 @@ class CGVectorExtensionsSpec: QuickSpec {
                 }
             }
 
+            describe("angle") {
+                it("returns its angle in radians") {
+                    let v1 = CGVector(dx: 527.0, dy:81.0)
+                    expect(v1.angle) ≈ 0.15250674
+
+                    let v2 = CGVector(dx: -184.6, dy: 0.2)
+                    expect(v2.angle) ≈ 3.1405091
+                }
+            }
+
         }
     }
 }

@@ -26,4 +26,10 @@ extension CGVector {
         }
     }
 
+    public var angle: CGFloat {
+        get {
+            return atan2(dy, dx)
+        }
+    }
+
 }
