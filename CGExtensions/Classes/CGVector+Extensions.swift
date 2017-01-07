@@ -13,5 +13,17 @@ extension CGVector {
     public init(angle radians: CGFloat, length: CGFloat) {
         self.init(dx: cos(radians) * length, dy: sin(radians) * length)
     }
-    
+
+    public var length: CGFloat {
+        get {
+            return sqrt(self.lengthSquared)
+        }
+    }
+
+    public var lengthSquared: CGFloat {
+        get {
+            return dx * dx + dy * dy
+        }
+    }
+
 }

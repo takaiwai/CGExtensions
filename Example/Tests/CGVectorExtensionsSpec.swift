@@ -55,6 +55,26 @@ class CGVectorExtensionsSpec: QuickSpec {
 //                }
             }
 
+            describe("length") {
+                it("returns its length") {
+                    let v1 = CGVector(dx: 527.0, dy:81.0)
+                    expect(v1.length) ≈ 533.18854
+
+                    let v2 = CGVector(dx: -184.6, dy: 0.2)
+                    expect(v2.length) ≈ 184.60011
+                }
+            }
+
+            describe("lengthSquared") {
+                it("returns a squared length") {
+                    let v1 = CGVector(dx: 527.0, dy:81.0)
+                    expect(v1.lengthSquared) ≈ 284290.0
+
+                    let v2 = CGVector(dx: -184.6, dy: 0.2)
+                    expect(v2.lengthSquared) ≈ 34077.2
+                }
+            }
+
         }
     }
 }
