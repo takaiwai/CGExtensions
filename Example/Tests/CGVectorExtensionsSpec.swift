@@ -66,12 +66,32 @@ class CGVectorExtensionsSpec: QuickSpec {
             }
 
             describe("length") {
-                it("returns its length") {
-                    let v1 = CGVector(dx: 527.0, dy:81.0)
-                    expect(v1.length) ≈ 533.18854
+                describe("getter") {
+                    it("returns its length") {
+                        let v1 = CGVector(dx: 527.0, dy:81.0)
+                        expect(v1.length) ≈ 533.18854
 
-                    let v2 = CGVector(dx: -184.6, dy: 0.2)
-                    expect(v2.length) ≈ 184.60011
+                        let v2 = CGVector(dx: -184.6, dy: 0.2)
+                        expect(v2.length) ≈ 184.60011
+                    }
+                }
+
+                describe("setter") {
+                    it("mutates its length while maintaining the angle") {
+                        var v1 = CGVector(dx: 527.0, dy:81.0)
+                        let a1 = v1.angle
+                        v1.length = 2.0
+
+                        expect(v1.angle) ≈ a1
+                        expect(v1.length) ≈ 2.0
+
+                        var v2 = CGVector(dx: -184.6, dy: 0.2)
+                        let a2 = v2.angle
+                        v2.length = 45.82
+
+                        expect(v2.angle) ≈ a2
+                        expect(v2.length) ≈ 45.82
+                    }
                 }
             }
 

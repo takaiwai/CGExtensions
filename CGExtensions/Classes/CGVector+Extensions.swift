@@ -18,6 +18,11 @@ extension CGVector {
         get {
             return sqrt(self.lengthSquared)
         }
+        set(newLength) {
+            let scale = self.length / newLength
+            dx /= scale
+            dy /= scale
+        }
     }
 
     public var lengthSquared: CGFloat {
