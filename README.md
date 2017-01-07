@@ -1,6 +1,6 @@
 # CGExtensions
 
-[![CI Status](http://img.shields.io/travis/takaiwai/CGExtensions.svg?style=flat)](https://travis-ci.org/Taka Iwai/CGExtensions)
+[![CI Status](http://img.shields.io/travis/takaiwai/CGExtensions.svg?style=flat)](https://travis-ci.org/takaiwai/CGExtensions)
 [![Version](https://img.shields.io/cocoapods/v/CGExtensions.svg?style=flat)](http://cocoapods.org/pods/CGExtensions)
 [![License](https://img.shields.io/cocoapods/l/CGExtensions.svg?style=flat)](http://cocoapods.org/pods/CGExtensions)
 [![Platform](https://img.shields.io/cocoapods/p/CGExtensions.svg?style=flat)](http://cocoapods.org/pods/CGExtensions)
