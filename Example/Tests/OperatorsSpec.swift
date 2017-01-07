@@ -192,5 +192,66 @@ class OperatorsSpec: QuickSpec {
             }
         }
 
+        describe("CGVector and CGFloat") {
+            describe("+") {
+                it("adds rhs to both dx and dy") {
+                    let v = CGVector(dx: 12.3, dy: 56.7) + 15.0
+                    expect(v) == CGVector(dx: 27.3, dy: 71.7)
+                }
+            }
+
+            describe("-") {
+                it("subtracts rhs from both dx and dy") {
+                    let v = CGVector(dx: 12.3, dy: 56.7) - 10.0
+                    expect(v.dx) ≈ 2.3
+                    expect(v.dy) ≈ 46.7
+                }
+            }
+
+            describe("*") {
+                it("returns a new CGVector by multiplying") {
+                    let v = CGVector(dx: 10.0, dy: 20.0) * 1.5
+                    expect(v) == CGVector(dx: 15.0, dy: 30.0)
+                }
+            }
+
+            describe("/") {
+                it("returns a new CGVector by dividing") {
+                    let v = CGVector(dx: 10.0, dy: 20.0) / 2.0
+                    expect(v) == CGVector(dx: 5.0, dy: 10.0)
+                }
+            }
+        }
+
+        describe("CGVector and (CGFloat, CGFloat)") {
+            describe("+") {
+                it("adds each value of tuple separately to dx and dy") {
+                    let s = CGVector(dx: 100.0, dy: 50.0) + (20.5, 10.5)
+                    expect(s) == CGVector(dx: 120.5, dy: 60.5)
+                }
+            }
+
+            describe("-") {
+                it("subtracts each value of tuple separately from dx and dy") {
+                    let s = CGVector(dx: 100.0, dy: 50.0) - (20.5, 10.5)
+                    expect(s) == CGVector(dx: 79.5, dy: 39.5)
+                }
+            }
+
+            describe("*") {
+                it("multiplies dx and dy separately by each value of tuples") {
+                    let s = CGVector(dx: 100.0, dy: 50.0) * (1.5, 2.0)
+                    expect(s) == CGVector(dx: 150.0, dy: 100.0)
+                }
+            }
+
+            describe("/") {
+                it("divides dx and dy separately by each value of tuples") {
+                    let s = CGVector(dx: 100.0, dy: 50.0) / (2.0, 5.0)
+                    expect(s) == CGVector(dx: 50.0, dy: 10.0)
+                }
+            }
+        }
+
     }
 }

@@ -103,3 +103,41 @@ public func + (lhs: CGVector, rhs: CGVector) -> CGVector {
 public func - (lhs: CGVector, rhs: CGVector) -> CGVector {
     return CGVector(dx: lhs.dx-rhs.dx, dy: lhs.dy-rhs.dy)
 }
+
+
+// MARK: - CGVector and CGFloat
+
+public func + (v: CGVector, s: CGFloat) -> CGVector {
+    return CGVector(dx: v.dx+s, dy: v.dy+s)
+}
+
+public func - (v: CGVector, s: CGFloat) -> CGVector {
+    return CGVector(dx: v.dx-s, dy: v.dy-s)
+}
+
+public func * (v: CGVector, s: CGFloat) -> CGVector {
+    return CGVector(dx: v.dx*s, dy: v.dy*s)
+}
+
+public func / (v: CGVector, s: CGFloat) -> CGVector {
+    return CGVector(dx: v.dx/s, dy: v.dy/s)
+}
+
+
+// MARK: - CGVector and (CGFloat, CGFloat)
+
+public func + (v: CGVector, s: (CGFloat, CGFloat)) -> CGVector {
+    return CGVector(dx: v.dx+s.0, dy: v.dy+s.1)
+}
+
+public func - (v: CGVector, s: (CGFloat, CGFloat)) -> CGVector {
+    return CGVector(dx: v.dx-s.0, dy: v.dy-s.1)
+}
+
+public func * (v: CGVector, s: (CGFloat, CGFloat)) -> CGVector {
+    return CGVector(dx: v.dx*s.0, dy: v.dy*s.1)
+}
+
+public func / (v: CGVector, s: (CGFloat, CGFloat)) -> CGVector {
+    return CGVector(dx: v.dx/s.0, dy: v.dy/s.1)
+}
