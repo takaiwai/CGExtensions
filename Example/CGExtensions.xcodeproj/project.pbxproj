@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00603AE11E217C0B00FCB834 /* CGVectorExtensionsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00603AE01E217C0B00FCB834 /* CGVectorExtensionsSpec.swift */; };
+		00603AE21E217C0B00FCB834 /* CGVectorExtensionsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00603AE01E217C0B00FCB834 /* CGVectorExtensionsSpec.swift */; };
 		0068F8C91E1F572C006627E1 /* FloatingPointExtensionsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0068F8C81E1F572C006627E1 /* FloatingPointExtensionsSpec.swift */; };
 		0068F8CA1E1F572C006627E1 /* FloatingPointExtensionsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0068F8C81E1F572C006627E1 /* FloatingPointExtensionsSpec.swift */; };
 		0068F8CC1E20332E006627E1 /* CGSizeExtensionsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0068F8CB1E20332E006627E1 /* CGSizeExtensionsSpec.swift */; };
@@ -50,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00603AE01E217C0B00FCB834 /* CGVectorExtensionsSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGVectorExtensionsSpec.swift; sourceTree = "<group>"; };
 		0068F8C81E1F572C006627E1 /* FloatingPointExtensionsSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingPointExtensionsSpec.swift; sourceTree = "<group>"; };
 		0068F8CB1E20332E006627E1 /* CGSizeExtensionsSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGSizeExtensionsSpec.swift; sourceTree = "<group>"; };
 		009629641E1EAF3900DDA0AF /* CGExtensions_Example_macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CGExtensions_Example_macOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -246,6 +249,7 @@
 				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				0068F8C81E1F572C006627E1 /* FloatingPointExtensionsSpec.swift */,
 				009629B11E1ECA2800DDA0AF /* CGPointExtensionsSpec.swift */,
+				00603AE01E217C0B00FCB834 /* CGVectorExtensionsSpec.swift */,
 				0068F8CB1E20332E006627E1 /* CGSizeExtensionsSpec.swift */,
 				009629B41E1ECE7C00DDA0AF /* OperatorsSpec.swift */,
 				607FACE91AFB9204008FA782 /* iOS */,
@@ -663,6 +667,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				009629921E1EB6AA00DDA0AF /* Tests.swift in Sources */,
+				00603AE21E217C0B00FCB834 /* CGVectorExtensionsSpec.swift in Sources */,
 				009629B61E1ECE7C00DDA0AF /* OperatorsSpec.swift in Sources */,
 				0068F8CD1E20332E006627E1 /* CGSizeExtensionsSpec.swift in Sources */,
 				009629B31E1ECA2800DDA0AF /* CGPointExtensionsSpec.swift in Sources */,
@@ -684,6 +689,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				00603AE11E217C0B00FCB834 /* CGVectorExtensionsSpec.swift in Sources */,
 				009629B51E1ECE7C00DDA0AF /* OperatorsSpec.swift in Sources */,
 				0068F8CC1E20332E006627E1 /* CGSizeExtensionsSpec.swift in Sources */,
 				009629B21E1ECA2800DDA0AF /* CGPointExtensionsSpec.swift in Sources */,
