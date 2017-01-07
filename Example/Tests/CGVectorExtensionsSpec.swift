@@ -27,11 +27,16 @@ class CGVectorExtensionsSpec: QuickSpec {
                     expect(v3.dy) ≈ 0.70710677
                 }
 
-//                it("is a unit vector") {
-//                    let v1 = CGVector(angle: 0.0)
-//                    let v2 = CGVector(angle: CGFloat(30.0).degreesInRadians)
-//                    let v3 = CGVector(angle: CGFloat(135.0).degreesInRadians)
-//                }
+                it("is a unit vector") {
+                    let v1 = CGVector(angle: 0.0)
+                    expect(v1.length) ≈ 1.0
+
+                    let v2 = CGVector(angle: CGFloat(30.0).degreesInRadians)
+                    expect(v2.length) ≈ 1.0
+
+                    let v3 = CGVector(angle: CGFloat(135.0).degreesInRadians)
+                    expect(v2.length) ≈ 1.0
+                }
             }
 
             describe("init(angle:length:)") {
@@ -48,11 +53,16 @@ class CGVectorExtensionsSpec: QuickSpec {
                     expect(v3.dy) ≈ 3.535534
                 }
 
-//                it("has the specified length") {
-//                    let v1 = CGVector(angle: 0.0, length: 3.5)
-//                    let v2 = CGVector(angle: CGFloat(30.0).degreesInRadians, length: 25.0)
-//                    let v3 = CGVector(angle: CGFloat(135.0).degreesInRadians, length: 5.0)
-//                }
+                it("has the specified length") {
+                    let v1 = CGVector(angle: 0.0, length: 3.5)
+                    expect(v1.length) ≈ 3.5
+
+                    let v2 = CGVector(angle: CGFloat(30.0).degreesInRadians, length: 25.0)
+                    expect(v2.length) ≈ 25.0
+
+                    let v3 = CGVector(angle: CGFloat(135.0).degreesInRadians, length: 5.0)
+                    expect(v3.length) ≈ 5.0
+                }
             }
 
             describe("length") {
