@@ -50,7 +50,7 @@ extension CGVector {
 
     public func normalized() -> CGVector {
         var n = self
-        n.length = 1.0
+        n.normalize()
         return n
     }
 
