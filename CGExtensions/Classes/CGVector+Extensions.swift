@@ -35,6 +35,11 @@ extension CGVector {
         get {
             return atan2(dy, dx)
         }
+        set(newAngle) {
+            let currentLength = self.length
+            dx = cos(newAngle) * currentLength
+            dy = sin(newAngle) * currentLength
+        }
     }
 
     public var polarComponents: (angle: CGFloat, length: CGFloat) {
