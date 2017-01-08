@@ -263,6 +263,36 @@ class CGVectorExtensionsSpec: QuickSpec {
                 }
             }
 
+            describe("isPerpendicular(to:)") {
+                it("returns true when two vectors are perpendicular") {
+                    let v1 = CGVector(angle: CGFloat(10).degreesInRadians)
+                    let v2 = CGVector(angle: CGFloat(100).degreesInRadians)
+
+                    let result = v1.isPerpendicular(to: v2)
+
+                    expect(result) == true
+                }
+
+                it("returns false when two vectors are not perpendicular") {
+                    let v1 = CGVector(angle: CGFloat(10).degreesInRadians)
+                    let v2 = CGVector(angle: CGFloat(50).degreesInRadians)
+
+                    let result = v1.isPerpendicular(to: v2)
+
+                    expect(result) == false
+                }
+
+                it("returns true after rotating by plus/minus half pi") {
+                    let v1 = CGVector(dx: 527.0, dy:81.0)
+                    let p1 = v1.rotated(by: .pi / 2.0)
+                    expect(v1.isPerpendicular(to: p1)) == true
+
+                    let v2 = CGVector(dx: -184.6, dy: 0.2)
+                    let p2 = v2.rotated(by: -.pi / 2.0)
+                    expect(v2.isPerpendicular(to: p2)) == true
+                }
+            }
+
             describe("dotProduct(_:)") {
                 it("calculates a dot product between two vectors") {
                     let v1 = CGVector(dx: 527.0, dy:81.0)

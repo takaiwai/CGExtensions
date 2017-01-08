@@ -77,6 +77,10 @@ extension CGVector {
         return abs(self.dx * other.dy - self.dy * other.dx) < CGVector.tolerance
     }
 
+    public func isPerpendicular(to other: CGVector) -> Bool {
+        return abs(self.dotProduct(other)) < CGVector.tolerance
+    }
+
     public func dotProduct(_ other: CGVector) -> CGFloat {
         return self.dx * other.dx + self.dy * other.dy
     }
