@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CGExtensions'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'Utility functions and operators on top the CoreGraphics.'
   s.description      = <<-DESC
 CGExtensions provides convenient functions and operators for people working with
