@@ -77,4 +77,8 @@ extension CGVector {
         return abs(self.dx * other.dy - self.dy * other.dx) < CGVector.tolerance
     }
 
+    public func dotProduct(_ other: CGVector) -> CGFloat {
+        return self.dx * other.dx + self.dy * other.dy
+    }
+
 }

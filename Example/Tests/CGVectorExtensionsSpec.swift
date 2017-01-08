@@ -263,6 +263,17 @@ class CGVectorExtensionsSpec: QuickSpec {
                 }
             }
 
+            describe("dotProduct(_:)") {
+                it("calculates a dot product between two vectors") {
+                    let v1 = CGVector(dx: 527.0, dy:81.0)
+                    let v2 = CGVector(dx: -184.6, dy: 0.2)
+
+                    let dotProduct = v1.dotProduct(v2)
+
+                    expect(dotProduct) ≈ -97268.0
+                }
+            }
+
         }
     }
 }
