@@ -251,6 +251,16 @@ class CGVectorExtensionsSpec: QuickSpec {
 
                     expect(result) == true
                 }
+
+                it("returns true after rotating by pi") {
+                    let v1 = CGVector(dx: 527.0, dy:81.0)
+                    let p1 = v1.rotated(by: .pi)
+                    expect(v1.isParallel(to: p1)) == true
+
+                    let v2 = CGVector(dx: -184.6, dy: 0.2)
+                    let p2 = v2.rotated(by: .pi)
+                    expect(v2.isParallel(to: p2)) == true
+                }
             }
 
         }
