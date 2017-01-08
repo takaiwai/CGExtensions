@@ -181,6 +181,49 @@ class CGVectorExtensionsSpec: QuickSpec {
                 }
             }
 
+            describe("rotated(by:)") {
+                it("returns a new vector rotated by the specified angle") {
+                    let v1 = CGVector(dx: 527.0, dy:81.0)
+                    let r1 = v1.rotated(by: CGFloat(45.0).degreesInRadians)
+
+                    expect(r1.angle) ≈ v1.angle + CGFloat(45.0).degreesInRadians
+                    expect(r1.length) ≈ v1.length
+
+                    let v2 = CGVector(dx: -184.6, dy: 0.2)
+                    let r2 = v2.rotated(by: CGFloat(-30).degreesInRadians)
+
+                    expect(r2.angle) ≈ v2.angle + CGFloat(-30).degreesInRadians
+                    expect(r2.length) ≈ v2.length
+                }
+            }
+
+            describe("rotate(by:)") {
+                it("mutates the vector by rotating by specified angle in radians") {
+                    var v1 = CGVector(dx: 1.0, dy: 0.0)
+                    v1.rotate(by: .pi / 2)
+
+                    expect(v1.angle) ≈ (CGFloat.pi / 2)
+                }
+
+                it("works with other cases") {
+                    var v1 = CGVector(dx: 527.0, dy:81.0)
+                    let l1 = v1.length
+                    let a1 = v1.angle
+                    v1.rotate(by: CGFloat(45.0).degreesInRadians)
+
+                    expect(v1.angle) ≈ a1 + CGFloat(45.0).degreesInRadians
+                    expect(v1.length) ≈ l1
+
+                    var v2 = CGVector(dx: -184.6, dy: 0.2)
+                    let l2 = v2.length
+                    let a2 = v2.angle
+                    v2.rotate(by: CGFloat(-30).degreesInRadians)
+
+                    expect(v2.angle) ≈ (a2 + CGFloat(-30).degreesInRadians)
+                    expect(v2.length) ≈ l2
+                }
+            }
+
         }
     }
 }

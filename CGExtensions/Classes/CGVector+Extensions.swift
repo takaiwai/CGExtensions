@@ -57,4 +57,18 @@ extension CGVector {
     public mutating func normalize() {
         self.length = 1.0
     }
+
+    public func rotated(by angle: CGFloat) -> CGVector {
+        var rotated = self
+        rotated.rotate(by: angle)
+        return rotated
+    }
+
+    public mutating func rotate(by angle: CGFloat) {
+        let newDx = dx * cos(angle) - dy * sin(angle)
+        let newDy = dx * sin(angle) + dy * cos(angle)
+        dx = newDx
+        dy = newDy
+    }
+
 }
