@@ -304,6 +304,36 @@ class CGVectorExtensionsSpec: QuickSpec {
                 }
             }
 
+            describe("CGVector.angleBetween(_:_:)") {
+                it("it returns the angle between two vectors") {
+                    let v1 = CGVector(angle: 0.0)
+                    let v2 = CGVector(angle: .pi / 4.0, length: 10.0)
+
+                    let angle = CGVector.angleBetween(v1, v2)
+
+                    expect(angle) ≈ CGFloat.pi / 4.0
+                }
+
+                it("is a commutative operation") {
+                    let v1 = CGVector(dx: 527.0, dy:81.0)
+                    let v2 = CGVector(dx: -184.6, dy: 0.2)
+
+                    let a1 = CGVector.angleBetween(v1, v2)
+                    let a2 = CGVector.angleBetween(v2, v1)
+
+                    expect(a1) ≈ a2
+                }
+
+                it("returns an angle in the range between 0.0 and PI") {
+                    let v1 = CGVector(angle: CGFloat(10.0).degreesInRadians)
+                    let v2 = CGVector(angle: CGFloat(-30.0).degreesInRadians)
+
+                    let angle = CGVector.angleBetween(v1, v2)
+
+                    expect(angle) ≈ CGFloat(40.0).degreesInRadians
+                }
+            }
+
         }
     }
 }

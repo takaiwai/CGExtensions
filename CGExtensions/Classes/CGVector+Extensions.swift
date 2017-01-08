@@ -85,4 +85,10 @@ extension CGVector {
         return self.dx * other.dx + self.dy * other.dy
     }
 
+    public static func angleBetween(_ v1: CGVector, _ v2: CGVector) -> CGFloat {
+        let angle1 = v1.angle
+        let angle2 = v2.angle
+        return abs(angle1 - angle2).normanizedAngle(base: .pi)
+    }
+
 }
