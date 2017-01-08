@@ -224,6 +224,35 @@ class CGVectorExtensionsSpec: QuickSpec {
                 }
             }
 
+            describe("isParallel(to:)") {
+                it("returns true when two vectors are parallel") {
+                    let v1 = CGVector(dx: 2.5, dy: 1.0)
+                    let v2 = CGVector(dx: 5.0, dy: 2.0)
+
+                    let result = v1.isParallel(to: v2)
+
+                    expect(result) == true
+                }
+
+                it("returns false when two vectors are not parallel") {
+                    let v1 = CGVector(dx: 2.5, dy: 1.0)
+                    let v2 = CGVector(dx: 1.0, dy: 5.0)
+
+                    let result = v1.isParallel(to: v2)
+
+                    expect(result) == false
+                }
+
+                it("returns true when two vectors are parallel and pointing opposite directions") {
+                    let v1 = CGVector(dx: 2.5, dy: 1.0)
+                    let v2 = CGVector(dx: 5.0, dy: 2.0)
+
+                    let result = v1.isParallel(to: v2)
+
+                    expect(result) == true
+                }
+            }
+
         }
     }
 }

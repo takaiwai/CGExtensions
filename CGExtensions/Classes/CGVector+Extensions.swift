@@ -71,4 +71,10 @@ extension CGVector {
         dy = newDy
     }
 
+    static let tolerance: CGFloat = 0.0001
+
+    public func isParallel(to other: CGVector) -> Bool {
+        return abs(self.dx * other.dy - self.dy * other.dx) < CGVector.tolerance
+    }
+
 }
