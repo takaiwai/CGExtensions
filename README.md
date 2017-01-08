@@ -27,3 +27,18 @@ Taka Iwai, hello@takaiwai.com
 ## License
 
 CGExtensions is available under the MIT license. See the LICENSE file for more info.
+
+## ToDos / ideas
+
+- [ ] Add test coverage badge
+- [ ] Use [SwiftCheck](https://github.com/typelift/SwiftCheck)
+- [ ] Add examples
+- [ ] Add documentation
+- [ ] Extensions on CGRect
+- [ ] Extensions on CGAffineTransform
+- [ ] Custom assignment operators (like `+=` or `*=`)
+- [ ] May add `closeTo` or `almostEqualTo` or `≈` operators
+- [ ] watchOS support
+- [ ] tvOS support
+- [ ] Boolean operations between `CGPath` like Illustrator's Pathfinder function
+- [ ] Missing `NSBezierPath.cgPath` getter
