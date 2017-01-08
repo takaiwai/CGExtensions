@@ -190,6 +190,16 @@ class OperatorsSpec: QuickSpec {
                     expect(result.dy) ≈ -57.5
                 }
             }
+
+            describe("⋅") {
+                it("returns the dot product between two vectors") {
+                    let v1 = CGVector(dx: 10.5, dy: 6.0)
+                    let v2 = CGVector(dx: 26, dy: 18.0)
+                    let result = v1 ⋅ v2
+
+                    expect(result) ≈ 381.0
+                }
+            }
         }
 
         describe("CGVector and CGFloat") {

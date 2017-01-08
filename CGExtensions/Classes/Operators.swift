@@ -104,6 +104,10 @@ public func - (lhs: CGVector, rhs: CGVector) -> CGVector {
     return CGVector(dx: lhs.dx-rhs.dx, dy: lhs.dy-rhs.dy)
 }
 
+infix operator ⋅: MultiplicationPrecedence
+public func ⋅ (lhs: CGVector, rhs: CGVector) -> CGFloat {
+    return lhs.dotProduct(rhs)
+}
 
 // MARK: - CGVector and CGFloat
 
