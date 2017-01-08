@@ -35,7 +35,7 @@ class CGVectorExtensionsSpec: QuickSpec {
                     expect(v2.length) ≈ 1.0
 
                     let v3 = CGVector(angle: CGFloat(135.0).degreesInRadians)
-                    expect(v2.length) ≈ 1.0
+                    expect(v3.length) ≈ 1.0
                 }
             }
 
